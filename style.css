@@ -1,0 +1,62 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "top top top"
+    "left middle right";
+    background-color: #F28705;
+    text-align: center;
+  
+  }
+  .left { grid-area: left; 
+          padding-left: 50px;
+          padding-right: 50px;
+          background-color:#049DBF;}
+  .middle { grid-area: middle;
+           padding-left: 50px;
+           padding-right: 50px; 
+           background-color: #049DBF;}
+  .right { grid-area: right;
+           padding-left: 50px;
+           padding-right: 50px; 
+           background-color: #049DBF;}
+  .top { grid-area: top; 
+          width: 0, auto;
+          height: 400px;
+          font-size: 100px;
+          align-content: center;
+          padding-top: 200px;
+         
+          
+        }
+  h2{height: 50px;
+    background-color:#04C4D9;
+    margin: 15px;
+    border-radius: 9%;
+  }
+
+
+
+/* Extra small and up (portrait phones) */
+
+/* Small and up (landscape phones) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium and up (tablets) */
+@media (min-width: 768px) {
+
+}
+
+/* Large and up (desktops) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large and up (wide screen desktops) */
+@media (min-width: 1200px) {
+
+}
